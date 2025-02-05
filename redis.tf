@@ -84,7 +84,7 @@ output "redis_port" {
 }
 
 resource "aws_iam_policy" "secretsPolicy" {
-  name = "podsecret-deployment-policy"
+  name = "podsecret-deployment-policy-zipdownload"
   policy = jsonencode({
     Version = "2012-10-17"
     Statement = [
