@@ -106,7 +106,7 @@ output "secrets_id" {
 }
 
 resource "aws_secretsmanager_secret" "db_credentials" {
-  name                    = "zipdownload-dbcredential-redis"
+  name                    = "zipdownload-dbcredential-redis-db"
   recovery_window_in_days = 0
 }
 
